@@ -1,0 +1,1142 @@
+openapi: 3.0.3
+info:
+  title: Computer Store
+  version: 1.0.0
+tags:
+  - name: products
+    description: Operations about products
+  - name: users
+    description: Operations about users
+  - name: carts
+    description: Informations about carts
+  - name: itemcarts
+    description: Informations about item carts
+  - name: orders
+    description: Informations about orders
+  - name: itemorders
+    description: Informations about item orders
+paths:
+  /products:
+    get:
+      tags:
+        - products
+      summary: Get all productss
+      responses:
+        '200':
+          description: A list of productss
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/products'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/products'
+        '500':
+          description: Status internal server error
+    post:
+      tags:
+        - products
+      summary: Add a new products to the store
+      description: Add a new products to the store
+      operationId: addproducts
+      requestBody:
+        description: Create a new products in the store
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/products'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/products'
+        required: true
+      responses:
+        '201':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /products/{id}:
+    get:
+      tags:
+        - products
+      summary: Get products by id
+      operationId: getproductsById
+      parameters:
+        - name: id
+          in: path
+          description: ID products
+          required: true
+          schema:
+            type: integer
+            format: int64
+            description: the id of the products
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/products'
+            application/xml:
+              schema:
+                items:
+                  $ref: '#/components/schemas/products'
+        '404':
+          description: products not found
+        '500':
+          description: Status internal server error
+    put:
+      tags:
+        - products
+      summary: Updates a products in the store with form data
+      description: ''
+      operationId: updateproducts
+      parameters:
+        - name: id
+          in: path
+          description: ID of products that needs to be updated
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Update object
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/products'
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Bad request
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '404':
+          description: Not found
+        '500':
+          description: Status internal server error
+    patch:
+      tags:
+        - products
+      summary: Partially update a specific products by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        description: Fields to be updated
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/products'
+      responses:
+        '200':
+          description: products partially updated successfully
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '404':
+          description: products not found
+    delete:
+      tags:
+        - products
+      summary: Deletes a products
+      description: delete a products
+      operationId: deleteproducts
+      parameters:
+        - name: id
+          in: path
+          description: products id to delete
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /products?name=string:
+    get:
+      tags:
+        - products
+      summary: Get a list of productss
+      parameters:
+        - name: name
+          in: query
+          description: Name of products
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A list of productss
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/products'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/products'
+        '500':
+          description: Status internal server error
+  /users/login:
+    get:
+      tags:
+        - users
+      summary: Logs users into the system
+      description: ''
+      operationId: loginusers
+      parameters:
+        - name: login
+          in: query
+          schema:
+            type: string
+            description: login
+          required: false
+        - name: password
+          in: query
+          required: false
+          schema:
+            type: string
+            description: password
+      responses:
+        '201':
+          description: Successful operation
+        '400':
+          description: Invalid input
+        '401':
+          description: Invalid login or password
+        '500':
+          description: Status internal server error
+  /users/logout:
+    get:
+      tags:
+        - users
+      summary: Logs out current logged in users session
+      description: Logs out current logged in users session
+      operationId: logoutusers
+      parameters: []
+      responses:
+        '200':
+          description: Successful operation
+  /users/register:
+    post:
+      tags:
+        - users
+      summary: Register
+      description: Add a new users
+      operationId: registerusers
+      requestBody:
+        description: Create a new users
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/users'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/users'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+  /users:
+    get:
+      tags:
+        - users
+      summary: Get all userss
+      description: Get users all userss
+      operationId: GetAlluserss
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/users'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/users'
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+  /users?username=string:
+    get:
+      tags:
+        - users
+      summary: Get users by usersname
+      description: Get users by usersname
+      operationId: GetusersByName
+      parameters:
+        - name: usersname
+          in: query
+          description: The name that needs to be fetched.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/users'
+            application/xml:
+              schema:
+                items:
+                  $ref: '#/components/schemas/users'
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+  /users/{id}:
+    get:
+      tags:
+        - users
+      summary: Get users by id
+      description: Get users by id
+      operationId: GetusersById
+      parameters:
+        - name: id
+          in: path
+          description: The id that needs to be fetched.
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/users'
+            application/xml:
+              schema:
+                items:
+                  $ref: '#/components/schemas/users'
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+    put:
+      tags:
+        - users
+      summary: Updates a users with form data
+      description: ''
+      operationId: updateusers
+      parameters:
+        - name: id
+          in: path
+          description: ID of products that needs to be updated
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Update object
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/users'
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Bad request
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '404':
+          description: Not found
+        '500':
+          description: Status internal server error
+    patch:
+      tags:
+        - users
+      summary: Partially update a specific users by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        description: Fields to be updated
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/users'
+      responses:
+        '200':
+          description: products partially updated successfully
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '404':
+          description: products not found
+    delete:
+      tags:
+        - users
+      summary: Deletes a users
+      description: delete a users
+      operationId: deleteusers
+      parameters:
+        - name: id
+          in: path
+          description: users id to delete
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /orders:
+    get:
+      tags:
+        - orders
+      summary: Get all orderss
+      description: Get users all orderss
+      operationId: GetAllorderss
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/orders'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/orders'
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+    post:
+      tags:
+        - orders
+      summary: Add a new orders
+      description: Add a new orders
+      operationId: addorders
+      requestBody:
+        description: Create a new orders
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/orders'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/orders'
+        required: true
+      responses:
+        '201':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /orders/{id}:
+    get:
+      tags:
+        - orders
+      summary: Get orders by id
+      description: Get orders by id
+      operationId: GetordersById
+      parameters:
+        - name: id
+          in: path
+          description: The id that needs to be fetched.
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/orders'
+            application/xml:
+              schema:
+                items:
+                  $ref: '#/components/schemas/orders'
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+    put:
+      tags:
+        - orders
+      summary: Updates status orders
+      description: ''
+      operationId: updateorders
+      parameters:
+        - name: id
+          in: path
+          description: ID of products that needs to be updated
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Update object
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/orders'
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Bad request
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '404':
+          description: Not found
+        '500':
+          description: Status internal server error
+    delete:
+      tags:
+        - orders
+      summary: Deletes a orders
+      description: delete a orders
+      operationId: deleteorders
+      parameters:
+        - name: id
+          in: path
+          description: users id to orders
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /orders?users_id=int:
+    get:
+      tags:
+        - orders
+      summary: Get orders by users_id
+      description: Get orders by users_id
+      operationId: GetordersByIdusers
+      parameters:
+        - name: users_id
+          in: query
+          description: The id users that needs to be fetched.
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/orders'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/orders'
+          description: Successful operation
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+  /itemorders:
+    post:
+      tags:
+        - itemorders
+      summary: Add a new itemorders
+      description: Add a new itemorders
+      operationId: addItemorders
+      requestBody:
+        description: Create a new item orders
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/itemorders'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/itemorders'
+        required: true
+      responses:
+        '201':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /itemorders/{id}:
+    get:
+      tags:
+        - itemorders
+      summary: Get itemorders by id
+      description: Get itemorders by id
+      operationId: GetItemordersById
+      parameters:
+        - name: id
+          in: path
+          description: The id that needs to be fetched.
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/itemorders'
+            application/xml:
+              schema:
+                items:
+                  $ref: '#/components/schemas/itemorders'
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+    put:
+      tags:
+        - itemorders
+      summary: Updates itemorders
+      description: ''
+      operationId: updateItemorders
+      parameters:
+        - name: id
+          in: path
+          description: ID of products that needs to be updated
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Update object
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/itemorders'
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Bad request
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '404':
+          description: Not found
+        '500':
+          description: Status internal server error
+    delete:
+      tags:
+        - itemorders
+      summary: Deletes a itemorders
+      description: delete a itemorders
+      operationId: deleteItemorders
+      parameters:
+        - name: id
+          in: path
+          description: users id to itemorders
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /itemorders?orders_id=int:
+    get:
+      tags:
+        - itemorders
+      summary: Get itemorderss by orders_id
+      description: Get itemorderss by orders_id
+      operationId: GetItemordersByIdorders
+      parameters:
+        - name: orders_id
+          in: query
+          description: The id that needs to be fetched.
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/itemorders'
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/itemorders'
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+  /carts:
+    post:
+      tags:
+        - carts
+      summary: Add a new carts
+      description: Add a new carts
+      operationId: addcarts
+      requestBody:
+        description: Create a new carts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/carts'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/carts'
+        required: true
+      responses:
+        '201':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /carts? users_id = int:
+    get:
+      tags:
+        - carts
+      summary: Get carts by users_id
+      description: Get carts by users_id
+      operationId: GetcartsByIdusers
+      parameters:
+        - name: users_id
+          in: query
+          description: The id that needs to be fetched.
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/carts'
+            application/xml:
+              schema:
+                items:
+                  $ref: '#/components/schemas/carts'
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+  /carts/{id}:
+    get:
+      tags:
+        - carts
+      summary: Get carts by id
+      description: Get carts by id
+      operationId: GetcartsById
+      parameters:
+        - name: id
+          in: path
+          description: The id that needs to be fetched.
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/carts'
+            application/xml:
+              schema:
+                items:
+                  $ref: '#/components/schemas/carts'
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+    put:
+      tags:
+        - carts
+      summary: Updates carts
+      description: ''
+      operationId: updatecarts
+      parameters:
+        - name: id
+          in: path
+          description: ID of products that needs to be updated
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Update object
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/carts'
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Bad request
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '404':
+          description: Not found
+        '500':
+          description: Status internal server error
+    delete:
+      tags:
+        - carts
+      summary: Deletes a carts
+      description: delete a carts
+      operationId: deletecarts
+      parameters:
+        - name: id
+          in: path
+          description: users id to carts
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /itemcarts:
+    post:
+      tags:
+        - itemcarts
+      summary: Add a new item carts
+      description: Add a new itemcarts
+      operationId: addItemcarts
+      requestBody:
+        description: Create a new item carts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/itemcarts'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/itemcarts'
+        required: true
+      responses:
+        '201':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+  /itemcarts/{id}:
+    get:
+      tags:
+        - itemcarts
+      summary: Get itemcarts by id
+      description: Get itemcarts by id
+      operationId: GetItemcartsById
+      parameters:
+        - name: id
+          in: path
+          description: The id that needs to be fetched.
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/itemcarts'
+            application/xml:
+              schema:
+                items:
+                  $ref: '#/components/schemas/itemcarts'
+          description: Successful operation
+        '400':
+          description: Invalid input
+        '500':
+          description: Status internal server error
+    put:
+      tags:
+        - itemcarts
+      summary: Updates itemcarts
+      description: ''
+      operationId: updateItemcarts
+      parameters:
+        - name: id
+          in: path
+          description: ID of Itemcarts that needs to be updated
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Update object
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/itemcarts'
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Bad request
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '404':
+          description: Not found
+        '500':
+          description: Status internal server error
+    delete:
+      tags:
+        - itemcarts
+      summary: Deletes a itemcarts
+      description: delete a itemcarts
+      operationId: deleteItemcarts
+      parameters:
+        - name: id
+          in: path
+          description: users id to itemcarts
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Successful operation
+        '401':
+          description: unautorized
+        '403':
+          description: forbidden
+        '500':
+          description: Status internal server error
+components:
+  schemas:
+    products:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 10
+        name:
+          type: string
+          example: Dell
+        price:
+          type: integer
+          example: 100
+        quantity:
+          type: integer
+          example: 10
+        description:
+          type: string
+          example: In 2020
+      xml:
+        name: products
+    carts:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 10
+        users_id:
+          type: integer
+          format: int64
+          example: 1
+        data_created:
+          type: string
+          format: date-time
+          example: '2024-09-20'
+      xml:
+        name: carts
+    itemcarts:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 10
+        carts_id:
+          type: integer
+          format: int64
+          example: 1
+        products_id:
+          type: integer
+          format: int64
+          example: 1
+        quantity:
+          type: integer
+          format: int64
+          example: 1
+      xml:
+        name: itemcarts
+    orders:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 10
+        users_id:
+          type: integer
+          format: int64
+          example: 1
+        status:
+          type: string
+          enum:
+            - pending
+            - delivering
+            - delivered
+          example: Delivered
+        data_created:
+          type: string
+          format: date-time
+          example: '2024-09-20'
+      xml:
+        name: orders
+    itemorders:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 10
+        orders_id:
+          type: integer
+          format: int64
+          example: 1
+        products_id:
+          type: integer
+          format: int64
+          example: 1
+        quantity:
+          type: integer
+          format: int64
+          example: 1
+      xml:
+        name: itemorders
+    users:
+      type: object
+      properties:
+        usersname:
+          type: string
+          example: theusers
+        phone:
+          type: string
+          example: '+79267197512'
+        login:
+          type: string
+          example: James
+        password:
+          type: string
+          example: '12345'
+        email:
+          type: string
+          example: 12345@gmail.com
+        address:
+          type: string
+          example: Moscow
+        role:
+          type: string
+          enum:
+            - admin
+            - client
+            - guest
+          example: client
+      xml:
+        name: users

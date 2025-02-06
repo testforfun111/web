@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1733218461859" clover="3.2.0">
+  <project timestamp="1733218461859" name="All files">
+    <metrics statements="69" coveredstatements="66" conditionals="2" coveredconditionals="0" methods="38" coveredmethods="37" elements="109" coveredelements="103" complexity="0" loc="69" ncloc="69" packages="2" files="8" classes="8"/>
+    <package name="services">
+      <metrics statements="57" coveredstatements="57" conditionals="0" coveredconditionals="0" methods="33" coveredmethods="33"/>
+      <file name="Api.ts" path="E:\My_semester_7\Web\Lab7\Test\Cursor\mystore\src\services\Api.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+      </file>
+      <file name="CartServices.ts" path="E:\My_semester_7\Web\Lab7\Test\Cursor\mystore\src\services\CartServices.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+      </file>
+      <file name="ItemCartServices.ts" path="E:\My_semester_7\Web\Lab7\Test\Cursor\mystore\src\services\ItemCartServices.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+      <file name="ItemOrderServices.ts" path="E:\My_semester_7\Web\Lab7\Test\Cursor\mystore\src\services\ItemOrderServices.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+      <file name="OrderServices.ts" path="E:\My_semester_7\Web\Lab7\Test\Cursor\mystore\src\services\OrderServices.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+      <file name="ProductServices.ts" path="E:\My_semester_7\Web\Lab7\Test\Cursor\mystore\src\services\ProductServices.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+      </file>
+      <file name="UserServices.ts" path="E:\My_semester_7\Web\Lab7\Test\Cursor\mystore\src\services\UserServices.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="12" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="4"/>
+      <file name="UserUtils.ts" path="E:\My_semester_7\Web\Lab7\Test\Cursor\mystore\src\utils\UserUtils.ts">
+        <metrics statements="12" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="4"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="31" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

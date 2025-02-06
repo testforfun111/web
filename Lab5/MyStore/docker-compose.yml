@@ -1,0 +1,155 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 12345678
+      POSTGRES_DB: mystore
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - postgres
+
+  # postgres-2:
+  #   image: postgres
+  #   restart: always
+  #   environment:
+  #     POSTGRES_USER: postgres
+  #     POSTGRES_PASSWORD: 123456789
+  #     POSTGRES_DB: store
+  #   volumes:
+  #     - postgres-data-2:/var/lib/postgresql/data
+  #   networks:
+  #     - postgres
+  #   depends_on:
+  #     - postgres
+
+  # postgres-1:
+  #   image: postgres:15.0
+  #   container_name: postgres-1
+  #   environment:
+  #     POSTGRES_USER: me
+  #     POSTGRES_PASSWORD: 123456789
+  #     POSTGRES_DB: store
+  #     PGDATA: /data
+  #   volumes:
+  #     - ./../postgres-1/pgdata:/data
+  #     - ./../postgres-1/config:/config
+  #     - ./../postgres-1/archive:/mnt/server/archive
+  #   command: -c 'config_file=/config/postgresql.conf'
+  #   networks:
+  #     - postgres
+
+  # postgres-2:
+  #   image: postgres:15.0
+  #   container_name: postgres-2
+  #   environment:
+  #     POSTGRES_USER: me
+  #     POSTGRES_PASSWORD: 123456789
+  #     POSTGRES_DB: store
+  #     PGDATA: /data
+  #   volumes:
+  #     - ./../postgres-2/pgdata:/data
+  #     - ./../postgres-2/config:/config
+  #     - ./../postgres-2/archive:/mnt/server/archive
+  #   command: -c 'config_file=/config/postgresql.conf'
+  #   networks:
+  #     - postgres
+
+  webapi:
+    container_name: webapi0
+    build:
+      dockerfile: Dockerfile
+    # depends_on:
+    #   - postgres-1
+    networks:
+      - postgres
+      - nginx_network
+      # - my_network
+    ports:
+      - "8081:8080"
+
+  # webapi1:
+  #   container_name: webapi1
+  #   build:
+  #     dockerfile: Dockerfile
+  #   # depends_on:
+  #   #   - postgres-1
+  #   networks:
+  #     - postgres
+  #     - nginx_network
+  #     # - my_network
+  #   ports:
+  #     - "8082:8080"
+
+  # webapi2:
+  #   container_name: webapi2
+  #   build:
+  #     dockerfile: Dockerfile
+  #   # depends_on:
+  #   #   - postgres-1
+  #   networks:
+  #     - postgres
+  #     - nginx_network
+  #     # - my_network
+  #   ports:
+  #     - "8083:8080"
+
+  # webapi-mirror:
+  #   container_name: webapi-mirror
+  #   build:
+  #     dockerfile: Dockerfile
+  #   # depends_on:
+  #   #   - postgres-2
+  #   networks:
+  #     - postgres
+  #     - nginx_network
+  #     # - my_network
+  #   ports:
+  #     - "8084:8080"
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pg@admin.com
+      PGADMIN_DEFAULT_PASSWORD: aaa
+      # PGADMIN_LISTEN_PORT: 5050
+    ports:
+      - "5050:80"
+    networks: 
+      - postgres
+      - nginx_network
+      # - my_network
+
+  nginx:
+    image: "byjg/nginx-extras"
+    # image: nginx
+    container_name: nginx_container_5
+    depends_on:
+      - pgadmin
+      - webapi
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - nginx_log:/var/log/nginx
+      - ./static:/static
+    ports:
+      - "80:80"
+    networks:
+      - nginx_network
+      # - my_network
+
+volumes:
+  postgres-data:
+  postgres-data-2:
+  nginx_log:
+networks:
+  postgres:
+    driver: bridge
+  nginx_network:
+    driver: bridge
+  # my_network:
+  #   external: true

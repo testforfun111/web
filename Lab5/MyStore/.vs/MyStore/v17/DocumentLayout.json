@@ -1,0 +1,654 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\data\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\models\\itemcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\itemcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\models\\itemorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\itemorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\repository\\itemcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repository\\itemcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\service\\itemcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\itemcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\interfaces\\iitemcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\iitemcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\controllers\\itemcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\itemcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\controllers\\itemordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\itemordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\repository\\itemorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repository\\itemorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\service\\itemorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\itemorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|e:\\my_semester_7\\web\\lab5\\mystore\\webapplication1\\dto\\itemcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3257F4A3-7C38-40AB-A88E-62B2F77C0626}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dto\\itemcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 28,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Dto\\CartDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Dto\\CartDto.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Dto\\CartDto.cs",
+              "RelativeToolTip": "WebApplication1\\Dto\\CartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T14:39:05.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemCart.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\ItemCart.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ItemCart.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\ItemCart.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ItemCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T14:38:18.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ItemOrder.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\ItemOrder.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ItemOrder.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\ItemOrder.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ItemOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T14:38:16.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Order.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\Order.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Order.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:42:10.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Dto\\OrderDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Dto\\OrderDto.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Dto\\OrderDto.cs",
+              "RelativeToolTip": "WebApplication1\\Dto\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:41:51.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\OrderController.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:12:34.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ItemCartController.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\ItemCartController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ItemCartController.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\ItemCartController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ItemCartController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:09:18.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ItemOrderController.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\ItemOrderController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ItemOrderController.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\ItemOrderController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ItemOrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:09:17.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repository\\OrderRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repository\\OrderRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:47:10.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ItemOrderRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\ItemOrderRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repository\\ItemOrderRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\ItemOrderRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repository\\ItemOrderRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:46:02.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Cart.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\Cart.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:19:44.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T22:12:57.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAApwBEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T22:11:26.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repository\\ProductRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T22:10:09.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Product.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\Product.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Product.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T22:08:57.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\User.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Models\\User.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\User.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA+wDwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T22:00:46.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repository\\UserRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:56:37.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ItemCartService.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\ItemCartService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\ItemCartService.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\ItemCartService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\ItemCartService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:08:27.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ItemOrderService.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\ItemOrderService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\ItemOrderService.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\ItemOrderService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\ItemOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:08:26.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\OrderService.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\OrderService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\OrderService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAC0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:08:25.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\ProductService.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\ProductService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\ProductService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:08:23.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\UserService.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\UserService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\UserService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:08:22.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbContextFactory.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Data\\DbContextFactory.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\DbContextFactory.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Data\\DbContextFactory.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\DbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:31:36.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\DataContext.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Data\\DataContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\DataContext.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:10:21.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:00:29.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T20:00:02.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IItemCartRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\IItemCartRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IItemCartRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\IItemCartRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\IItemCartRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAEwBQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:22:12.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CartController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:19:34.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ItemCartRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\ItemCartRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repository\\ItemCartRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\ItemCartRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repository\\ItemCartRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAC4AAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:18:40.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:11:45.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\ICartRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Interfaces\\ICartRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\ICartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:11:37.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\CartRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repository\\CartRepository.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Repository\\CartRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repository\\CartRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:11:25.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\CartService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Service\\CartService.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Service\\CartService.cs",
+              "RelativeToolTip": "WebApplication1\\Service\\CartService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:09:57.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T08:46:17.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAUwEIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:04:30.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Helper\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Helper\\MappingProfiles.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Helper\\MappingProfiles.cs",
+              "RelativeToolTip": "WebApplication1\\Helper\\MappingProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T17:30:10.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ItemCartDto.cs",
+              "DocumentMoniker": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Dto\\ItemCartDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Dto\\ItemCartDto.cs",
+              "ToolTip": "E:\\My_semester_7\\Web\\Lab5\\MyStore\\WebApplication1\\Dto\\ItemCartDto.cs",
+              "RelativeToolTip": "WebApplication1\\Dto\\ItemCartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:51:12.161Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
